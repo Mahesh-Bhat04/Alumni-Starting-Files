@@ -17,17 +17,17 @@ const About = () => {
 
         {/*==========about content=========*/}
         <div className="w-full lg:w-1/2 xl:w-[670px] order-1 lg:order-2">
-          <h2 className='heading'>Proud to be one of the nations best</h2>
+          <h2 className='heading'>Proud to Connect Alumni Worldwide</h2>
           <p className="text__para">
-            Discover effortless healthcare scheduling with our doctor appointment platform. 
-            Streamlined for ease, we connect patients with professionals, 
-            ensuring timely care and a user-friendly experience for all.
+            Experience the power of community with our alumni engagement platform. 
+            Designed for seamless networking, we bring together graduates to share knowledge, 
+            create opportunities, and stay connected to their alma mater.
           </p>
           <p className="text__para mt-[30px]">
-            Utilizing advanced technology, our platform offers real-time availability updates, 
-            detailed practitioner profiles, and intuitive booking features. 
-            Whether you're a patient seeking care or a medical professional managing appointments, 
-            our website simplifies the process, fostering efficient communication and optimal healthcare outcomes.
+            Leveraging cutting-edge technology, our platform offers real-time event updates, 
+            detailed alumni profiles, and intuitive networking tools. 
+            Whether you're looking to mentor, attend reunions, or stay in touch with old friends, 
+            our website fosters meaningful connections and lifelong engagement.
           </p>
           <Link to='/'>
             <button className='btn'>Learn More</button>

@@ -29,14 +29,14 @@ const Home = () => {
                 <div className='lg:w-[570px]'>
                   <h1 className='text-[36px] leading-[46px] text-headingColor font-[800] md:text-[60px]
                   md:leading-[70px]'>
-                    We help patients live a healthy, longer life.
+                    We help students, to connect with their Alumni.
                   </h1>
                   <p className='text__para'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Nulla convallis libero ac justo condimentum, sit amet consequat lorem gravida.
                     Sed non felis consectetur, consectetur libero ut, congue eros.
                     Proin venenatis dolor vitae libero vehicula, in volutpat risus fermentum.
                   </p>
-                  <button className='btn'>Request an Appointment</button>
+                  <button className='btn'>Request a Personal Session</button>
                 </div>
 
                 {/*====hero counter*/}
@@ -45,18 +45,18 @@ const Home = () => {
                   <div>
                     <h2 className='text-[36px] leading-[56px] lg:text-[44px] lg:leading-[54px] font-[700]
                     text-headingColor'>
-                      30+
+                      300+
                     </h2>
                     <span className='w-[100px] h-2 bg-yellowColor rounded-full block mt-[-14px]'></span>
-                    <p className='text__para'>Years of Experience</p>
+                    <p className='text__para'>Colleges Boarded</p>
                   </div>
                   <div>
                     <h2 className='text-[36px] leading-[56px] lg:text-[44px] lg:leading-[54px] font-[700]
                     text-headingColor'>
-                      15+
+                      5k+
                     </h2>
                     <span className='w-[100px] h-2 bg-purpleColor rounded-full block mt-[-14px]'></span>
-                    <p className='text__para'>Clinic Locations</p>
+                    <p className='text__para'>Students Connected</p>
                   </div>
                   <div>
                     <h2 className='text-[36px] leading-[56px] lg:text-[44px] lg:leading-[54px] font-[700]
@@ -64,7 +64,7 @@ const Home = () => {
                       100%
                     </h2>
                     <span className='w-[100px] h-2 bg-irisBlueColor rounded-full block mt-[-14px]'></span>
-                    <p className='text__para'>Patient Satisfaction</p>
+                    <p className='text__para'>Placements</p>
                   </div>
 
 
@@ -93,10 +93,10 @@ const Home = () => {
           <div className="container">
             <div className='lg:w-[470px] mx-auto'>
               <h2 className='heading text-center'>
-                Providing the best medical Services
+              Providing the best alumni connections
               </h2>
               <p className='text__para text-center'>
-                World class care for everyone. Our health system offers unmatched, expert health care.
+              World-Class networking for students and alumni. Our Alumni system are unmatched
               </p>
             </div>
 
@@ -108,11 +108,10 @@ const Home = () => {
 
                 <div className="mt-[30px]">
                   <h2 className='text-[26px] leading-9 text-headingColor font-[700] text-center'>
-                    Find a Doctor
+                  Find an Alumni
                   </h2>
                   <p className='text-[16px] leading-7 text-textColor font-[400] mt-4 text-center'>
-                    World class care for everyone. Our health system offers unmatched, expert health care. 
-                    From the lab to the Clinic.
+                  World-Class networking for students and alumni. Our Alumni system are unmatched
                   </p>
                   <Link to='/doctors' className='w-[44px] h-[44px] rounded-full border border-solid border-[#181A1E]
                   mt-[30px] mx-auto flex items-center justify-center group hover:bg-primaryColor hover:border-none'>
@@ -128,11 +127,10 @@ const Home = () => {
 
                 <div className="mt-[30px]">
                   <h2 className='text-[26px] leading-9 text-headingColor font-[700] text-center'>
-                    Find the Location
+                    Find an Alumni
                   </h2>
                   <p className='text-[16px] leading-7 text-textColor font-[400] mt-4 text-center'>
-                    World class care for everyone. Our health system offers unmatched, expert health care. 
-                    From the lab to the Clinic.
+                    World-Class networking for students and alumni. Our Alumni system are unmatched
                   </p>
                   <Link to='/doctors' className='w-[44px] h-[44px] rounded-full border border-solid border-[#181A1E]
                   mt-[30px] mx-auto flex items-center justify-center group hover:bg-primaryColor hover:border-none'>
@@ -148,11 +146,10 @@ const Home = () => {
 
                 <div className="mt-[30px]">
                   <h2 className='text-[26px] leading-9 text-headingColor font-[700] text-center'>
-                    Book an Appointment
+                    Book a personal Session
                   </h2>
                   <p className='text-[16px] leading-7 text-textColor font-[400] mt-4 text-center'>
-                    World class care for everyone. Our health system offers unmatched, expert health care. 
-                    From the lab to the Clinic.
+                  World-Class networking for students and alumni. Our Alumni system are unmatched
                   </p>
                   <Link to='/doctors' className='w-[44px] h-[44px] rounded-full border border-solid border-[#181A1E]
                   mt-[30px] mx-auto flex items-center justify-center group hover:bg-primaryColor hover:border-none'>
@@ -172,10 +169,9 @@ const Home = () => {
         <section>
           <div className="container ">
             <div className="mx-auto xl:w-[470px]">
-              <h2 className='heading text-center'>Our Medical Services</h2>
+              <h2 className='heading text-center'>Our Alumni Services</h2>
               <p className="text__para text-center">
-                World-Class care for everyone. Our health system offers unmatched,
-                expert health care.
+              World-Class networking for students and alumni. Our Alumni system are unmatched
               </p>
             </div>
 
@@ -192,17 +188,17 @@ const Home = () => {
               {/*======feature content======== */}
               <div className="xl:w-[670px]">
                 <h2 className="heading">
-                  Get Virtual Treatment <br />anytime.
+                Get Alumni Guidance <br />anytime.
                 </h2>
                 <ul className="pl-4">
                   <li className="text__para">
-                    1. Schedule the appointment directly.
+                    1. Schedule a session directly.
                   </li>
                   <li className="text__para">
-                    2. Search for your physician here, and contact their office.
+                    2. Search for your alumni here, and contact them directly.
                   </li>
                   <li className="text__para">
-                    3. View our hysicians who are accepting new patients, use the online scheduling to select appointment time.
+                    3. View our alumni who are hiring freshers, use the online scheduling to get a potential job.
                   </li>
                 </ul>
                 <Link to='/'>
@@ -253,10 +249,9 @@ const Home = () => {
         <section>
         <div className="container ">
             <div className="mx-auto xl:w-[470px]">
-              <h2 className='heading text-center'>Our Great Doctors</h2>
+              <h2 className='heading text-center'>Our Great Alumni</h2>
               <p className="text__para text-center">
-                World-Class care for everyone. Our health system offers unmatched,
-                expert health care.
+              World-Class networking for students and alumni. Our Alumni system are unmatched.
               </p>
 
               <DoctorList/>
