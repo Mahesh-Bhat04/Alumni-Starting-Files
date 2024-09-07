@@ -1,9 +1,12 @@
 import "./App.css";
 import Layout from "./layout/Layout";
+import Chatbot from "./chatbot.jsx"
+
 
 function App() {
   return (
-    <Layout/>
+    <><Chatbot/>
+    <Layout/></>
   )
 }
 
