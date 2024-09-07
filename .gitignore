@@ -18,11 +18,12 @@ dist-ssr
 .idea
 .DS_Store
 *.suo
-*.ntvs*
+.ntvs
 *.njsproj
 *.sln
 *.sw?
 
 /backend/venv
 /backend/.env
+/backend/_pycache_
 /backend/__pycache__
